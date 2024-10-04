@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<minecraftItems lang="es">
+   <item>
+        <id>1</id>
+        <name>Espada de diamante</name>
+        <type>Arma</type>
+        <rarity>Epico</rarity>
+        <damage>7</damage>
+        <durabilidad>20000</durabilidad>
+        <description>Espada de diamante</description>
+   </item>
+   <item>
+        <id>2</id>
+        <name>Casco de diamante</name>
+        <type>Armadura</type>
+        <rarity>Epico</rarity>
+        <defensa>5</defensa>
+        <durabilidad>17000</durabilidad>
+        <description>Armadura de diamante</description>
+    </item>
+    <item>
+        <id>3</id>
+        <name>Peto de diamante</name>
+        <type>Armadura</type>
+        <rarity>Epico</rarity>
+        <defensa>8</defensa>
+        <durabilidad>19000</durabilidad>
+        <description>Armadura de diamante</description>
+    </item>
+    <item>
+        <id>4</id>
+        <name>Pantalones de diamante</name>
+        <type>Armadura</type>
+        <rarity>Epico</rarity>
+        <defensa>7</defensa>
+        <durabilidad>18000</durabilidad>
+        <description>Armadura de diamante</description>
+    </item>
+    <item>
+        <id>5</id>
+        <name>Botas de diamante</name>
+        <type>Armadura</type>
+        <rarity>Epico</rarity>
+        <defensa>5</defensa>
+        <durabilidad>17000</durabilidad>
+        <description>Armadura de diamante</description>
+    </item>
+</minecraftItems>
