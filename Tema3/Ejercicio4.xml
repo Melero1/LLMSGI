@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notas lang="es">
+    <alumnos>
+        <alumno id="1">
+            <nombre>Pedro</nombre>
+            <apellidos>Nabaja serrucho</apellidos>
+            <nia>12345678A</nia>
+        </alumno>
+
+        <alumno id="2">
+            <nombre>Kiko</nombre>
+            <apellidos>Ferrero</apellidos>
+            <nia>98765432B</nia>
+        </alumno>
+
+        <alumno id="3">
+            <nombre>sergio</nombre>
+            <apellidos>pons</apellidos>
+            <nia>4569872F</nia>
+        </alumno>
+    </alumnos>
+
+    <modulos>
+        <modulo id="1">
+            <nombre>Lenguaje de Marcas</nombre>
+            <nota>10</nota>
+
+        </modulo>
+
+        <modulo id="2">
+            <nombre>Ingles</nombre>
+            <nota>9</nota>
+        </modulo>
+
+        <modulo id="3">
+            <nombre>Educacion Fisica</nombre>
+            <nota>6</nota>
+        </modulo>
+
+        <modulo id="4">
+            <nombre>Matematicas</nombre>
+            <nota>3</nota>
+        </modulo>
+    </modulos>
+
+</notas>

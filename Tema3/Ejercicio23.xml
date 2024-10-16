@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <minecraftItems lang="es">
-   <item id="1" crafteable="true" enchantable="true">
+   <item id="1" crafteable="true" enchantable="true" destruible="true">
         <name>Espada de diamante</name>
         <type>Arma</type>
         <rarity>Epico</rarity>
@@ -16,7 +16,7 @@
             <encantamiento>Golpeo III</encantamiento>
         </encantamientos>
    </item>
-   <item id="2" crafteable="true" enchantable="true">
+   <item id="2" crafteable="true" enchantable="true" destruible="true">
         <name>Casco de diamante</name>
         <type>Armadura</type>
         <rarity>Epico</rarity>
@@ -32,7 +32,7 @@
             <encantamiento>Respiracion II</encantamiento>
         </encantamientos>
     </item>
-    <item id="3" crafteable="true" enchantable="true">
+    <item id="3" crafteable="true" enchantable="true" destruible="true">
         <name>Peto de diamante</name>
         <type>Armadura</type>
         <rarity>Epico</rarity>
@@ -47,7 +47,7 @@
             <encantamiento>Irrompibilidad III</encantamiento>
         </encantamientos>
     </item>
-    <item id="4" crafteable="true" enchantable="true">
+    <item id="4" crafteable="true" enchantable="true" destruible="true">
         <name>Pantalones de diamante</name>
         <type>Armadura</type>
         <rarity>Epico</rarity>
@@ -62,7 +62,7 @@
             <encantamiento>Irrompibilidad III</encantamiento>
         </encantamientos>
     </item>
-    <item id="5" crafteable="true" enchantable="true">
+    <item id="5" crafteable="true" enchantable="true" destruible="true">
         <name>Botas de diamante</name>
         <type>Armadura</type>
         <rarity>Epico</rarity>
