@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<minecraftItems lang="es">
+   <item id="1" crafteable="true" enchantable="true" destruible="true">
+        <name>Espada de diamante</name>
+        <type>Arma</type>
+        <rarity>Epico</rarity>
+        <damage>7</damage>
+        <durabilidad>20000</durabilidad>
+        <description>Espada de diamante</description>
+        <materiales>
+            <material>diamante</material>
+            <material>palos</material>
+        </materiales>
+        <encantamientos>
+            <encantamiento>Filo V</encantamiento>
+            <encantamiento>Golpeo III</encantamiento>
+        </encantamientos>
+   </item>
+   <item id="2" crafteable="true" enchantable="true" destruible="true">
+        <name>Casco de diamante</name>
+        <type>Armadura</type>
+        <rarity>Epico</rarity>
+        <defensa>5</defensa>
+        <durabilidad>17000</durabilidad>
+        <description>Armadura de diamante</description>
+        <materiales>
+            <material>diamante</material>
+        </materiales>
+        <encantamientos>
+            <encantamiento>Proteccion IV</encantamiento>
+            <encantamiento>Irrompibilidad III</encantamiento>
+            <encantamiento>Respiracion II</encantamiento>
+        </encantamientos>
+    </item>
+    <item id="3" crafteable="true" enchantable="true" destruible="true">
+        <name>Peto de diamante</name>
+        <type>Armadura</type>
+        <rarity>Epico</rarity>
+        <defensa>8</defensa>
+        <durabilidad>19000</durabilidad>
+        <description>Armadura de diamante</description>
+        <materiales>
+            <material>diamante</material>
+        </materiales>
+        <encantamientos>
+            <encantamiento>Proteccion IV</encantamiento>
+            <encantamiento>Irrompibilidad III</encantamiento>
+        </encantamientos>
+    </item>
+    <item id="4" crafteable="true" enchantable="true" destruible="true">
+        <name>Pantalones de diamante</name>
+        <type>Armadura</type>
+        <rarity>Epico</rarity>
+        <defensa>7</defensa>
+        <durabilidad>18000</durabilidad>
+        <description>Armadura de diamante</description>
+        <materiales>
+            <material>diamante</material>
+        </materiales>
+        <encantamientos>
+            <encantamiento>Proteccion IV</encantamiento>
+            <encantamiento>Irrompibilidad III</encantamiento>
+        </encantamientos>
+    </item>
+    <item id="5" crafteable="true" enchantable="true" destruible="true">
+        <name>Botas de diamante</name>
+        <type>Armadura</type>
+        <rarity>Epico</rarity>
+        <defensa>5</defensa>
+        <durabilidad>17000</durabilidad>
+        <description>Armadura de diamante</description>
+        <materiales>
+            <material>diamante</material>
+        </materiales>
+        <encantamientos>
+            <encantamiento>Proteccion IV</encantamiento>
+            <encantamiento>Irrompibilidad III</encantamiento>
+            <encantamiento>Caida de pluma IV</encantamiento>
+        </encantamientos>
+    </item>
+</minecraftItems>
