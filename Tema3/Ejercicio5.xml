@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <curriculumVitae lang="es">
     
@@ -40,59 +39,10 @@
         </trabajo>
         
     </ExperienciaLaboral>
-
-    <habilidades>
-        <habilidad>Atencion al cliente</habilidad>
-        <habilidad>Trabajo bajo presion</habilidad>
-        <habilidad>Creatividad</habilidad>
-    </habilidades>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<curriculumVitae lang="es">
     
-    <datos>
-        <nombre>Jesus</nombre>
-        <apellidos>Melero Rodriguez</apellidos>
-        <correo>jesusmelero16@gmail.com</correo>
-        <numero>+34 656456456</numero>
-    </datos>
-
-    <EstudiosAcademicos>
-        <titulos>
-            <titulo>ESO Educacion Secundario Obligatoria</titulo>
-            <titulo>FB SMX Formacion Basica Sistemas Microinformaticos y Redes</titulo>
-            <titulo>SMX Sistemas Microinformaticos y Redes</titulo>
-        </titulos>
-    </EstudiosAcademicos>
-
-    <ExperienciaLaboral>
-        <trabajo id="1">
-            <puesto>Camarero</puesto>
-            <empresa>Cala Viuda</empresa>
-            <tiempoContrato>01/03/22 - 01/04/22</tiempoContrato>
-            <tareas>camarero, Bartman</tareas>
-        </trabajo>
-
-        <trabajo id="2">
-            <puesto>Camarero</puesto>
-            <empresa>Cala Viuda</empresa>
-            <tiempoContrato>01/03/22 - 01/04/22</tiempoContrato>
-            <tareas>camarero, Bartman</tareas>
-        </trabajo>
-
-        <trabajo id="3">
-            <puesto>Tecnico practico IT</puesto>
-            <empresa>IES La Mar</empresa>
-            <tiempoContrato>01/03/22 - 01/04/22</tiempoContrato>
-            <tareas>Practicas en instituto</tareas>
-        </trabajo>
-        
-    </ExperienciaLaboral>
-
     <habilidades>
         <habilidad>Atencion al cliente</habilidad>
         <habilidad>Trabajo bajo presion</habilidad>
         <habilidad>Creatividad</habilidad>
     </habilidades>
->>>>>>> 9c2e45b6cba6e5d609a2599f929d3fb91e255f0a
 </curriculumVitae>
