@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT minecraftItems (item+)>
+<!ATTLIST minecraftItems lang CDATA #REQUIRED>
+
+<!ELEMENT item (name, type, material?, rarity, (damage | defensa)?, enchantment?, durabilidad, description)>
+<!ATTLIST item
+    id CDATA #REQUIRED
+    crafteable (true | false) #REQUIRED
+    enchantments (true | false) #REQUIRED 
+>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT material (#PCDATA)>
+<!ELEMENT rarity (#PCDATA)>
+<!ELEMENT damage (#PCDATA)>
+<!ELEMENT defensa (#PCDATA)>
+<!ELEMENT enchantment (#PCDATA)>
+<!ELEMENT durabilidad (#PCDATA)>
+<!ELEMENT description (#PCDATA)>

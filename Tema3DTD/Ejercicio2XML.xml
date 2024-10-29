@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE minecraftItems SYSTEM "Ejercicio2DTD.dtd">
+<minecraftItems lang="es">
+   <item id="1" crafteable="true" enchantments="true">
+        <name>Espada de diamante</name>
+        <type>Arma</type>
+        <material>diamante</material>
+        <rarity>Epico</rarity>
+        <damage>7</damage>
+        <enchantment>Golpe V, Filo V</enchantment>
+        <durabilidad>20000</durabilidad>
+        <description>Espada de diamante</description>
+   </item>
+   <item id="2" crafteable="true" enchantments="true">
+        <name>Casco de diamante</name>
+        <type>Armadura</type>
+        <material>diamante</material>
+        <rarity>Epico</rarity>
+        <defensa>5</defensa>
+        <enchantment>Defensa V</enchantment>
+        <durabilidad>17000</durabilidad>
+        <description>Armadura de diamante</description>
+    </item>
+    <item id="3" crafteable="true" enchantments="true">
+        <name>Peto de diamante</name>
+        <type>Armadura</type>
+        <material>diamante</material>
+        <rarity>Epico</rarity>
+        <defensa>8</defensa>
+        <enchantment>Defensa V</enchantment>
+        <durabilidad>19000</durabilidad>
+        <description>Armadura de diamante</description>
+    </item>
+    <item id="4" crafteable="true" enchantments="true"> 
+        <name>Pantalones de diamante</name>
+        <type>Armadura</type>
+        <material>diamante</material>
+        <rarity>Epico</rarity>
+        <defensa>7</defensa>
+        <enchantment>Defensa V</enchantment>
+        <durabilidad>18000</durabilidad>
+        <description>Armadura de diamante</description>
+    </item>
+    <item id="5" crafteable="true" enchantments="true">
+        <name>Botas de diamante</name>
+        <type>Armadura</type>
+        <material>diamante</material>
+        <rarity>Epico</rarity>
+        <defensa>5</defensa>
+        <enchantment>Defensa V</enchantment>
+        <durabilidad>17000</durabilidad>
+        <description>Armadura de diamante</description>
+    </item>
+</minecraftItems>
