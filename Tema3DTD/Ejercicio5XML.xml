@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Ejercicio5XML SYSTEM "Ejercicio5DTD.dtd">
+<Ejercicio5XML lang="es">
+    <datos>
+        <nombre>Jesus</nombre>
+        <apellidos>Melero Rodriguez</apellidos>
+        <correo>jesusmelero16@gmail.com</correo>
+        <numero>+34 656456456</numero>
+    </datos>
+
+    <EstudiosAcademicos>
+        <titulos>
+            <titulo>ESO Educacion Secundario Obligatoria</titulo>
+            <titulo>FB SMX Formacion Basica Sistemas Microinformaticos y Redes</titulo>
+            <titulo>SMX Sistemas Microinformaticos y Redes</titulo>
+        </titulos>
+    </EstudiosAcademicos>
+
+    <ExperienciaLaboral>
+        <trabajo id="uno">
+            <puesto>Camarero</puesto>
+            <empresa>Cala Viuda</empresa>
+            <tiempoContrato>01/03/22 - 01/04/22</tiempoContrato>
+            <tareas>camarero, Bartman</tareas>
+        </trabajo>
+        <trabajo id="dos">
+            <puesto>Camarero</puesto>
+            <empresa>Cala Viuda</empresa>
+            <tiempoContrato>01/03/22 - 01/04/22</tiempoContrato>
+            <tareas>camarero, Bartman</tareas>
+        </trabajo>
+        <trabajo id="tres">
+            <puesto>Tecnico practico IT</puesto>
+            <empresa>IES La Mar</empresa>
+            <tiempoContrato>01/03/22 - 01/04/22</tiempoContrato>
+            <tareas>Practicas en instituto</tareas>
+        </trabajo>
+    </ExperienciaLaboral>
+    
+    <habilidades>
+        <habilidad>Atencion al cliente</habilidad>
+        <habilidad>Trabajo bajo presion</habilidad>
+        <habilidad>Creatividad</habilidad>
+    </habilidades>
+</Ejercicio5XML>

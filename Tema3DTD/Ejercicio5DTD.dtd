@@ -1,0 +1,23 @@
+<!ELEMENT Ejercicio5XML (datos, EstudiosAcademicos, ExperienciaLaboral, habilidades)>
+<!ATTLIST Ejercicio5XML lang CDATA #REQUIRED>
+
+<!ELEMENT datos (nombre, apellidos, correo, numero)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+
+<!ELEMENT EstudiosAcademicos (titulos)>
+<!ELEMENT titulos (titulo+)>
+<!ELEMENT titulo (#PCDATA)>
+
+<!ELEMENT ExperienciaLaboral (trabajo+)>
+<!ELEMENT trabajo (puesto, empresa, tiempoContrato, tareas)>
+<!ATTLIST trabajo id ID #REQUIRED>
+<!ELEMENT puesto (#PCDATA)>
+<!ELEMENT empresa (#PCDATA)>
+<!ELEMENT tiempoContrato (#PCDATA)>
+<!ELEMENT tareas (#PCDATA)>
+
+<!ELEMENT habilidades (habilidad+)>
+<!ELEMENT habilidad (#PCDATA)>
