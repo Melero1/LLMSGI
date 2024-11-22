@@ -1,0 +1,31 @@
+<!ELEMENT Empresa (RazonSocial, PaginaWeb, Sucursal+)>
+<!ATTLIST Empresa id CDATA #REQUIRED>
+
+<!ELEMENT Sucursal (CodigoSucursal, NombreSucursal, Direccion, Poblacion, Telefonos, Ticket+)>
+<!ELEMENT CodigoSucursal (#PCDATA)>
+<!ELEMENT NombreSucursal (#PCDATA)>
+<!ELEMENT Direccion (#PCDATA)>
+<!ELEMENT Poblacion (#PCDATA)>
+<!ELEMENT Telefonos (Telefono+)>
+<!ELEMENT Telefono (#PCDATA)>
+
+<!ELEMENT Ticket (Encabezado, Lineas, Resumen)>
+<!ELEMENT Encabezado (IdTicket, FechaEmision, HoraEmision, Empleado)>
+<!ELEMENT IdTicket (#PCDATA)>
+<!ELEMENT FechaEmision (#PCDATA)>
+<!ELEMENT HoraEmision (#PCDATA)>
+<!ELEMENT Empleado (#PCDATA)>
+
+<!ELEMENT Lineas (Linea+)>
+<!ELEMENT Linea (Articulo, Cantidad, CodigoArticulo, Descripcion, PrecioUnitario, PrecioTotal, Descuento)>
+<!ELEMENT Articulo (#PCDATA)>
+<!ELEMENT Cantidad (#PCDATA)>
+<!ELEMENT CodigoArticulo (#PCDATA)>
+<!ELEMENT Descripcion (#PCDATA)>
+<!ELEMENT PrecioUnitario (#PCDATA)>
+<!ELEMENT PrecioTotal (#PCDATA)>
+<!ELEMENT Descuento (#PCDATA)>
+
+<!ELEMENT Resumen (Total, FormaPago)>
+<!ELEMENT Total (#PCDATA)>
+<!ELEMENT FormaPago (#PCDATA)>
