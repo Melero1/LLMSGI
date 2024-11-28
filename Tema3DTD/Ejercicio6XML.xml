@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Empresa SYSTEM "Ejercicio6DTD.dtd">
+<Empresa id="1234">
+  <RazonSocial>Materiales XYZ</RazonSocial>
+  <PaginaWeb>www.materialesxyz.com</PaginaWeb>
+  <Sucursal>
+    <CodigoSucursal>001</CodigoSucursal>
+    <NombreSucursal>Sucursal Central</NombreSucursal>
+    <Direccion>Calle Principal 123</Direccion>
+    <Poblacion>Ciudad X</Poblacion>
+    <Telefonos>
+      <Telefono>123456789</Telefono>
+      <Telefono>987654321</Telefono>
+    </Telefonos>
+    <Ticket>
+      <Encabezado>
+        <IdTicket>T001</IdTicket>
+        <FechaEmision>2024-11-22</FechaEmision>
+        <HoraEmision>14:35</HoraEmision>
+        <Empleado>Juan Perez</Empleado>
+      </Encabezado>
+      <Lineas>
+        <Linea>
+          <Articulo>Lapiz</Articulo>
+          <Cantidad>10</Cantidad>
+          <CodigoArticulo>LPZ001</CodigoArticulo>
+          <Descripcion>Lapiz de grafito</Descripcion>
+          <PrecioUnitario>0.50</PrecioUnitario>
+          <PrecioTotal>5.00</PrecioTotal>
+          <Descuento>0.00</Descuento>
+        </Linea>
+        <Linea>
+          <Articulo>Cuaderno</Articulo>
+          <Cantidad>5</Cantidad>
+          <CodigoArticulo>CND002</CodigoArticulo>
+          <Descripcion>Cuaderno rayado</Descripcion>
+          <PrecioUnitario>2.00</PrecioUnitario>
+          <PrecioTotal>10.00</PrecioTotal>
+          <Descuento>1.00</Descuento>
+        </Linea>
+      </Lineas>
+      <Resumen>
+        <Total>14.00</Total>
+        <FormaPago>Tarjeta</FormaPago>
+      </Resumen>
+    </Ticket>
+    <Ticket>
+      <Encabezado>
+        <IdTicket>T002</IdTicket>
+        <FechaEmision>2024-11-22</FechaEmision>
+        <HoraEmision>15:00</HoraEmision>
+        <Empleado>Maria Lopez</Empleado>
+      </Encabezado>
+      <Lineas>
+        <Linea>
+          <Articulo>Borrador</Articulo>
+          <Cantidad>3</Cantidad>
+          <CodigoArticulo>BRR003</CodigoArticulo>
+          <Descripcion>Borrador blanco</Descripcion>
+          <PrecioUnitario>1.00</PrecioUnitario>
+          <PrecioTotal>3.00</PrecioTotal>
+          <Descuento>0.50</Descuento>
+        </Linea>
+      </Lineas>
+      <Resumen>
+        <Total>2.50</Total>
+        <FormaPago>Efectivo</FormaPago>
+      </Resumen>
+    </Ticket>
+  </Sucursal>
+</Empresa>
