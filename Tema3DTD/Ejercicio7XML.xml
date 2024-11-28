@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Ejercicio7XML SYSTEM "Ejercicio7DTD.dtd">
+
+<Ejercicio7XML lang="es">
+    
+    <factura facturaNumero="1">   
+        
+       <fecha>04/11/2024</fecha> 
+
+        <menbrete cif="123456789">
+            <razonSocial>Todos Unidos</razonSocial>
+            <direccion>Calle de la esperanza</direccion>
+            <codigoPostal>03730</codigoPostal>
+            <poblacion>Madrid</poblacion>
+            <telefono>755847595</telefono>
+            <email>TodosUnidos@gmail.com</email>
+        </menbrete>
+
+        <cliente dni="987654321A">
+            <nombre>Juan Pedro</nombre>
+            <direccion>Calle pedrito Navaja</direccion>
+            <codigoPostalCliente>02450</codigoPostalCliente>
+            <poblacionCliente>Barcelona</poblacionCliente>
+        </cliente>
+
+        <productos>
+            <producto codigo="001">
+                <cantidad>3</cantidad>
+                <descripcion>Limpieza</descripcion>
+                <precioUnitario>4.00</precioUnitario>
+                <iva>0.20</iva>
+            </producto>
+            <producto codigo="002">
+                <cantidad>1</cantidad>
+                <descripcion>Carne</descripcion>
+                <precioUnitario>8.00</precioUnitario>
+                <iva>0.80</iva>
+            </producto>
+            <producto codigo="003">
+                <cantidad>8</cantidad>
+                <descripcion>Limpieza</descripcion>
+                <precioUnitario>0.80</precioUnitario>
+                <iva>0.05</iva>
+            </producto>
+
+        </productos>
+        
+        <resumen>
+            <formaPago>transferencia</formaPago>
+            <descuento>0.00</descuento>
+        </resumen>
+    </factura>
+</Ejercicio7XML>

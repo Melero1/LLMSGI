@@ -1,0 +1,34 @@
+<!ELEMENT Ejercicio7XML (factura+)>
+<!ATTLIST Ejercicio7XML lang CDATA #REQUIRED>
+
+<!ELEMENT factura (fecha, menbrete, cliente, productos, resumen)>
+<!ATTLIST factura facturaNumero CDATA #REQUIRED>
+
+<!ELEMENT fecha (#PCDATA)>
+
+<!ELEMENT menbrete (razonSocial, direccion, codigoPostal, poblacion, telefono, email)>
+<!ATTLIST menbrete cif CDATA #REQUIRED>
+<!ELEMENT razonSocial (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT codigoPostal (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT cliente (nombre, direccion, codigoPostalCliente, poblacionCliente)>
+<!ATTLIST cliente dni CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT codigoPostalCliente (#PCDATA)>
+<!ELEMENT poblacionCliente (#PCDATA)>
+
+<!ELEMENT productos (producto+)>
+<!ELEMENT producto (cantidad, descripcion, precioUnitario, iva)>
+<!ATTLIST producto codigo CDATA #REQUIRED>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT precioUnitario (#PCDATA)>
+<!ELEMENT iva (#PCDATA)>
+
+<!ELEMENT resumen (formaPago, descuento)>
+<!ELEMENT formaPago (#PCDATA)>
+<!ELEMENT descuento (#PCDATA)>
